@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "ProjectName",
+        "ParameterValue": "udagram"
+    },
+    {
+        "ParameterKey": "VolumeSize",
+        "ParameterValue": "10"
+    },
+	{
+		"ParameterKey": "S3BucketName",
+		"ParameterValue": "udagram-s3bucket-90821317"
+	},
+	{
+		"ParameterKey": "KeyPairName",
+		"ParameterValue": "MyKeyPair"
+	}
+]
