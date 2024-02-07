@@ -33,11 +33,9 @@ done
 # Use the profile variable
 if [ -n "$profile" ]; then
     aws cloudformation delete-stack --stack-name udagramnetwork \
-        --region=us-east-1 \
         --profile $profile
 else
-    aws cloudformation delete-stack --stack-name udagramnetwork \
-        --region=us-east-1
+    aws cloudformation delete-stack --stack-name udagramnetwork
 fi
 
 
