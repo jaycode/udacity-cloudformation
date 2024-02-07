@@ -48,7 +48,17 @@ You should then see this beautiful page:
 
 ## Tear down instructions
 
-For now, you'll have to delete the CloudFormation templates manually from the AWS console.
+To delete the application infrastructure:
+
+```
+./delete_udagram.sh --profile udacity
+```
+
+To delete the network infrastructure:
+
+```
+./delete_network.sh --profile udacity
+```
 
 ## Other considerations
 
